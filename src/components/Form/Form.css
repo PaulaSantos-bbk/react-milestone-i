@@ -1,0 +1,8 @@
+.form {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+  background-color: blanchedalmond;
+  min-width: 10vmin;
+  min-height: 8vmin;
+}

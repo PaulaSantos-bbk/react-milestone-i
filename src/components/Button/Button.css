@@ -1,0 +1,11 @@
+.btn {
+  background-color: aliceblue;
+  border-radius: 5px;
+  outline: none;
+  transition: background-color 0.3s linear;
+}
+
+.btn:hover {
+  background-color: lime;
+  transition: background-color 0.3s linear;
+}

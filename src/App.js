@@ -1,26 +1,47 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import './App.css'
+import Form from './components/Form'
+import Input from './components/Input'
 
 function App() {
+  const [userData, setUserData] = useState({})
+  const onChangeInput = (event) =>
+    setUserData({ ...userData, [event.target.id]: event.target.value })
+  const onFormSubmit = (event) => {
+    event.preventDefault()
+    console.log(userData)
+  }
+  const validateForm = () => {
+    return userData.password && userData.password === userData.confirmPassword
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+      <Form onSubmit={validateForm() ? onFormSubmit : null}>
+        <Input
+          id='name'
+          label='Your name:'
+          onChange={onChangeInput}
+          type='text'
+          value={userData.name}
+        />
+        <Input
+          id='email'
+          label='Your email:'
+          onChange={onChangeInput}
+          type='email'
+          value={userData.email}
+        />
+        <Input
+          id='password'
+          label='Your password:'
+          onChange={onChangeInput}
+          type='password'
+          value={userData.password}
+        />
+      </Form>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
