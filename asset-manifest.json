@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-milestone-i/static/css/main.c19c1fcd.chunk.css",
+    "main.js": "/react-milestone-i/static/js/main.f3290370.chunk.js",
+    "main.js.map": "/react-milestone-i/static/js/main.f3290370.chunk.js.map",
+    "runtime-main.js": "/react-milestone-i/static/js/runtime-main.577c644e.js",
+    "runtime-main.js.map": "/react-milestone-i/static/js/runtime-main.577c644e.js.map",
+    "static/js/2.cedb6775.chunk.js": "/react-milestone-i/static/js/2.cedb6775.chunk.js",
+    "static/js/2.cedb6775.chunk.js.map": "/react-milestone-i/static/js/2.cedb6775.chunk.js.map",
+    "index.html": "/react-milestone-i/index.html",
+    "precache-manifest.c3d0dcf69d7f43eda7e5561ca9f5fce7.js": "/react-milestone-i/precache-manifest.c3d0dcf69d7f43eda7e5561ca9f5fce7.js",
+    "service-worker.js": "/react-milestone-i/service-worker.js",
+    "static/css/main.c19c1fcd.chunk.css.map": "/react-milestone-i/static/css/main.c19c1fcd.chunk.css.map",
+    "static/js/2.cedb6775.chunk.js.LICENSE.txt": "/react-milestone-i/static/js/2.cedb6775.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.577c644e.js",
+    "static/js/2.cedb6775.chunk.js",
+    "static/css/main.c19c1fcd.chunk.css",
+    "static/js/main.f3290370.chunk.js"
+  ]
+}
